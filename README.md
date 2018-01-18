@@ -14,7 +14,7 @@ Start server<br>
 Start hamlib rigctl<br>
 <b>rigctl -m 2 -r localhost:4575</b><br>
 ## Testing
-'''bash
+```bash
 Rig command: l
 Level: 1234
 get_level: error = Invalid parameter
@@ -47,7 +47,8 @@ Reply LSB
 2400
 
 Mode: LSB
-Passband: 2400'''
+Passband: 2400
+```
 
 ## How does it work?
 rigctl will connect to python script hamlibserver.py witch will impliment the rtl-sdr interface to rtl_fm to controle frequensy and mode for the TCP stream by using the rtl_mux utility.<br>
