@@ -13,10 +13,10 @@ Start server<br>
 <b>python hamlibserver.py&</b> <br>
 Start hamlib rigctl<br>
 <b>rigctl -m 2 -r localhost:4575</b><br>
-## How dose it work
+## How does it work?
 rigctl will connect to python script hamlibserver.py witch will impliment the rtl-sdr interface to rtl_fm to controle frequensy and mode for the TCP stream by using the rtl_mux utility.<br>
 So now you would be able to use GPREICT satelite tracking software to controle your SDR dongle (rtl dongle)<br>
-## Related repositories
+## Related repositorys
 http://www.hamlib.org -- project Wiki, including list of supported rigs.<br>
 http://sourceforge.net/projects/hamlib/ -- SourceForge.net project page.<br>
 http://hamlib.git.sourceforge.net/git/gitweb-index.cgi -- Git repository via Web.<br>
