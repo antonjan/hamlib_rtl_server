@@ -1,11 +1,16 @@
 # hamlib_rtl_server
 This Repository will have all the code to controle the rtl_dongle from hamlib.<br>
 The purpose of this project is to build a capability for hamlib to controle the RTL Dongle.<br>
+The hamlib library suport tcp interface to radio and this is "rig 2"<br>
+ Rig # | Mfg                    |Model                   |Version         |Status|
+ |--- | --- | ---| ---| ---|
+ 2  |Hamlib |NET rigctl|0.3| Beta|
 ![Alt text](rtl_dongle_hamlib_server.jpg?raw=true "Block diagram")<br>
 ## Project Status
 This project just started.<br>
 Usage<br>
-Start server<br>
+```bash
+Start server<br>```
 python hamlibserver.py& <br>
 Start hamlib rigctl<br>
 rigctl -m 2 -r localhost:4575<br>
