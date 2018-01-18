@@ -1,7 +1,7 @@
 # hamlib_rtl_server
 This Repository will have all the code to controle the rtl_dongle from hamlib.<br>
 The purpose of this project is to build a capability for hamlib to controle the RTL Dongle.<br>
-![Alt text](FM_Repeater_1.jpg?raw=true "Block diagram")<br>
+![Alt text](rtl_dongle_hamlib_server.jpg?raw=true "Block diagram")<br>
 # Project Status
 This project just started.
 Usage<br>
