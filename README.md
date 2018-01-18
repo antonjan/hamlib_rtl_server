@@ -13,8 +13,9 @@ Start server<br>
 <b>python hamlibserver.py&</b> <br>
 Start hamlib rigctl<br>
 <b>rigctl -m 2 -r localhost:4575</b><br>
-##Testing
-'''Rig command: l
+## Testing
+'''bash
+Rig command: l
 Level: 1234
 get_level: error = Invalid parameter
 
