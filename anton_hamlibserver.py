@@ -1,10 +1,14 @@
+#!/usr/bin/python -i
 # This software is Copyright (C) 2012 by James C. Ahlstrom, and is
 # licensed for use under the GNU General Public License (GPL).
 # See http://www.opensource.org.
 # Note that there is NO WARRANTY AT ALL.  USE AT YOUR OWN RISK!!
 
 import sys, time, socket, traceback, string
-
+#import rtl_fm_python 
+#from rtl_fm_python_common import *
+#sys.path.insert(0,/home/anton/hamlib_rtl_server)
+import rtl_fm_python.rtl_fm_python_common
 PORT = 4575
 
 # This module creates a Hamlib TCP server that implements the rigctl protocol.  To start the server,
@@ -253,6 +257,15 @@ class App:
           print 'Remove', client.address
           break
       
+class rtl: 
+    print("called rtl")
+# This is the state of the "hardware"
+#    self.freq = 21200500
+#    self.mode = 'CW'
+#    self.bandwidth = 2400
+#    self.vfo = "VFO"
+#    self.ptt = 0
+
 
 if __name__ == "__main__":
   try:
